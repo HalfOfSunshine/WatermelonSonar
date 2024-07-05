@@ -1,0 +1,16 @@
+PODS:
+  - MKConsole (0.0.6)
+
+DEPENDENCIES:
+  - MKConsole
+
+SPEC REPOS:
+  trunk:
+    - MKConsole
+
+SPEC CHECKSUMS:
+  MKConsole: a1c7a3dc78f65dd702d9d052af1913a6b22d0167
+
+PODFILE CHECKSUM: 3cf02ec8ed850113bbe72e27677de3d83966619d
+
+COCOAPODS: 1.15.2

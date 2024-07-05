@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2954D763E0BC0F4B27C9D7 /* Pods_WatermelonSonar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2678C144ED87C183E700EEED /* Pods_WatermelonSonar.framework */; };
+		AB9636882C383BAD00F9308F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636872C383BAD00F9308F /* AppDelegate.m */; };
+		AB96368B2C383BAD00F9308F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB96368A2C383BAD00F9308F /* SceneDelegate.m */; };
+		AB96368E2C383BAD00F9308F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB96368D2C383BAD00F9308F /* ViewController.m */; };
+		AB9636912C383BAD00F9308F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB96368F2C383BAD00F9308F /* Main.storyboard */; };
+		AB9636932C383BAF00F9308F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9636922C383BAF00F9308F /* Assets.xcassets */; };
+		AB9636962C383BAF00F9308F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9636942C383BAF00F9308F /* LaunchScreen.storyboard */; };
+		AB9636992C383BAF00F9308F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636982C383BAF00F9308F /* main.m */; };
+		AB9636CF2C383C5D00F9308F /* UIColor+MKRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636A32C383C5C00F9308F /* UIColor+MKRGB.m */; };
+		AB9636D02C383C5D00F9308F /* UITextField+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636A52C383C5C00F9308F /* UITextField+FunctionExpansion.m */; };
+		AB9636D12C383C5D00F9308F /* UIWindow+MKWindowTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636A82C383C5C00F9308F /* UIWindow+MKWindowTool.m */; };
+		AB9636D22C383C5D00F9308F /* UIButton+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636AA2C383C5C00F9308F /* UIButton+FunctionExpansion.m */; };
+		AB9636D32C383C5D00F9308F /* UIView+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636AB2C383C5C00F9308F /* UIView+FunctionExpansion.m */; };
+		AB9636D42C383C5D00F9308F /* UILabel+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636AD2C383C5C00F9308F /* UILabel+FunctionExpansion.m */; };
+		AB9636D52C383C5D00F9308F /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636AE2C383C5D00F9308F /* UINavigationController+FDFullscreenPopGesture.m */; };
+		AB9636D62C383C5D00F9308F /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636AF2C383C5D00F9308F /* UIViewController+NavigationBar.m */; };
+		AB9636D82C383C5D00F9308F /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636B72C383C5D00F9308F /* Common.m */; };
+		AB9636DB2C383C5D00F9308F /* MKMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636C12C383C5D00F9308F /* MKMD5.m */; };
+		AB9636DC2C383C5D00F9308F /* NSString+LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636C42C383C5D00F9308F /* NSString+LocalizedString.m */; };
+		AB9636DD2C383C5D00F9308F /* XTTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636C62C383C5D00F9308F /* XTTimeTool.m */; };
+		AB9636DE2C383C5D00F9308F /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636C72C383C5D00F9308F /* NSString+Size.m */; };
+		AB9636DF2C383C5D00F9308F /* NSNumber+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636CB2C383C5D00F9308F /* NSNumber+Exist.m */; };
+		AB9636E02C383C5D00F9308F /* NSNull+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636CC2C383C5D00F9308F /* NSNull+Exist.m */; };
+		AB9636E12C383C5D00F9308F /* NSString+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9636CD2C383C5D00F9308F /* NSString+Exist.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2678C144ED87C183E700EEED /* Pods_WatermelonSonar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatermelonSonar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B608B8C3DCFE53A03D47DFF /* Pods-WatermelonSonar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonSonar.release.xcconfig"; path = "Target Support Files/Pods-WatermelonSonar/Pods-WatermelonSonar.release.xcconfig"; sourceTree = "<group>"; };
+		8B05E3E5FFB47C02100948E7 /* Pods-WatermelonSonar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonSonar.debug.xcconfig"; path = "Target Support Files/Pods-WatermelonSonar/Pods-WatermelonSonar.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9636832C383BAD00F9308F /* WatermelonSonar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatermelonSonar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9636862C383BAD00F9308F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB9636872C383BAD00F9308F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB9636892C383BAD00F9308F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AB96368A2C383BAD00F9308F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AB96368C2C383BAD00F9308F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB96368D2C383BAD00F9308F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB9636902C383BAD00F9308F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB9636922C383BAF00F9308F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB9636952C383BAF00F9308F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB9636972C383BAF00F9308F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9636982C383BAF00F9308F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB9636A02C383C5C00F9308F /* MKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTool.h; sourceTree = "<group>"; };
+		AB9636A22C383C5C00F9308F /* UIColor+MKRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MKRGB.h"; sourceTree = "<group>"; };
+		AB9636A32C383C5C00F9308F /* UIColor+MKRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MKRGB.m"; sourceTree = "<group>"; };
+		AB9636A52C383C5C00F9308F /* UITextField+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB9636A62C383C5C00F9308F /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		AB9636A72C383C5C00F9308F /* UILabel+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB9636A82C383C5C00F9308F /* UIWindow+MKWindowTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MKWindowTool.m"; sourceTree = "<group>"; };
+		AB9636A92C383C5C00F9308F /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		AB9636AA2C383C5C00F9308F /* UIButton+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB9636AB2C383C5C00F9308F /* UIView+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB9636AC2C383C5C00F9308F /* UITextField+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB9636AD2C383C5C00F9308F /* UILabel+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB9636AE2C383C5D00F9308F /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		AB9636AF2C383C5D00F9308F /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		AB9636B02C383C5D00F9308F /* UIWindow+MKWindowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MKWindowTool.h"; sourceTree = "<group>"; };
+		AB9636B12C383C5D00F9308F /* UIView+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB9636B22C383C5D00F9308F /* UIButton+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB9636B72C383C5D00F9308F /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		AB9636B82C383C5D00F9308F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		AB9636B92C383C5D00F9308F /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		AB9636C02C383C5D00F9308F /* NSString+LocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalizedString.h"; sourceTree = "<group>"; };
+		AB9636C12C383C5D00F9308F /* MKMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMD5.m; sourceTree = "<group>"; };
+		AB9636C22C383C5D00F9308F /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		AB9636C32C383C5D00F9308F /* XTTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTimeTool.h; sourceTree = "<group>"; };
+		AB9636C42C383C5D00F9308F /* NSString+LocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LocalizedString.m"; sourceTree = "<group>"; };
+		AB9636C52C383C5D00F9308F /* MKMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMD5.h; sourceTree = "<group>"; };
+		AB9636C62C383C5D00F9308F /* XTTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTTimeTool.m; sourceTree = "<group>"; };
+		AB9636C72C383C5D00F9308F /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		AB9636C92C383C5D00F9308F /* NSString+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exist.h"; sourceTree = "<group>"; };
+		AB9636CA2C383C5D00F9308F /* NSNull+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Exist.h"; sourceTree = "<group>"; };
+		AB9636CB2C383C5D00F9308F /* NSNumber+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Exist.m"; sourceTree = "<group>"; };
+		AB9636CC2C383C5D00F9308F /* NSNull+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Exist.m"; sourceTree = "<group>"; };
+		AB9636CD2C383C5D00F9308F /* NSString+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exist.m"; sourceTree = "<group>"; };
+		AB9636CE2C383C5D00F9308F /* NSNumber+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Exist.h"; sourceTree = "<group>"; };
+		AB9636E22C383CD500F9308F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9636802C383BAD00F9308F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2954D763E0BC0F4B27C9D7 /* Pods_WatermelonSonar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695BF838387C1B3BE55E70B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B05E3E5FFB47C02100948E7 /* Pods-WatermelonSonar.debug.xcconfig */,
+				5B608B8C3DCFE53A03D47DFF /* Pods-WatermelonSonar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB96367A2C383BAD00F9308F = {
+			isa = PBXGroup;
+			children = (
+				AB9636852C383BAD00F9308F /* WatermelonSonar */,
+				AB9636842C383BAD00F9308F /* Products */,
+				695BF838387C1B3BE55E70B5 /* Pods */,
+				C5B941F3D4996BA25C2D0841 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9636842C383BAD00F9308F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9636832C383BAD00F9308F /* WatermelonSonar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9636852C383BAD00F9308F /* WatermelonSonar */ = {
+			isa = PBXGroup;
+			children = (
+				AB96369F2C383C5C00F9308F /* MKTool */,
+				AB9636862C383BAD00F9308F /* AppDelegate.h */,
+				AB9636872C383BAD00F9308F /* AppDelegate.m */,
+				AB9636892C383BAD00F9308F /* SceneDelegate.h */,
+				AB96368A2C383BAD00F9308F /* SceneDelegate.m */,
+				AB96368C2C383BAD00F9308F /* ViewController.h */,
+				AB96368D2C383BAD00F9308F /* ViewController.m */,
+				AB96368F2C383BAD00F9308F /* Main.storyboard */,
+				AB9636922C383BAF00F9308F /* Assets.xcassets */,
+				AB9636942C383BAF00F9308F /* LaunchScreen.storyboard */,
+				AB9636972C383BAF00F9308F /* Info.plist */,
+				AB9636982C383BAF00F9308F /* main.m */,
+				AB9636E22C383CD500F9308F /* PrefixHeader.pch */,
+			);
+			path = WatermelonSonar;
+			sourceTree = "<group>";
+		};
+		AB96369F2C383C5C00F9308F /* MKTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB9636A02C383C5C00F9308F /* MKTool.h */,
+				AB9636A12C383C5C00F9308F /* Color */,
+				AB9636A42C383C5C00F9308F /* UITools */,
+				AB9636B62C383C5D00F9308F /* Common */,
+				AB9636BF2C383C5D00F9308F /* FunctionExpansion */,
+				AB9636C82C383C5D00F9308F /* ObjectExist */,
+			);
+			path = MKTool;
+			sourceTree = "<group>";
+		};
+		AB9636A12C383C5C00F9308F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				AB9636A22C383C5C00F9308F /* UIColor+MKRGB.h */,
+				AB9636A32C383C5C00F9308F /* UIColor+MKRGB.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		AB9636A42C383C5C00F9308F /* UITools */ = {
+			isa = PBXGroup;
+			children = (
+				AB9636A52C383C5C00F9308F /* UITextField+FunctionExpansion.m */,
+				AB9636A62C383C5C00F9308F /* UINavigationController+FDFullscreenPopGesture.h */,
+				AB9636A72C383C5C00F9308F /* UILabel+FunctionExpansion.h */,
+				AB9636A82C383C5C00F9308F /* UIWindow+MKWindowTool.m */,
+				AB9636A92C383C5C00F9308F /* UIViewController+NavigationBar.h */,
+				AB9636AA2C383C5C00F9308F /* UIButton+FunctionExpansion.m */,
+				AB9636AB2C383C5C00F9308F /* UIView+FunctionExpansion.m */,
+				AB9636AC2C383C5C00F9308F /* UITextField+FunctionExpansion.h */,
+				AB9636AD2C383C5C00F9308F /* UILabel+FunctionExpansion.m */,
+				AB9636AE2C383C5D00F9308F /* UINavigationController+FDFullscreenPopGesture.m */,
+				AB9636AF2C383C5D00F9308F /* UIViewController+NavigationBar.m */,
+				AB9636B02C383C5D00F9308F /* UIWindow+MKWindowTool.h */,
+				AB9636B12C383C5D00F9308F /* UIView+FunctionExpansion.h */,
+				AB9636B22C383C5D00F9308F /* UIButton+FunctionExpansion.h */,
+			);
+			path = UITools;
+			sourceTree = "<group>";
+		};
+		AB9636B62C383C5D00F9308F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB9636B72C383C5D00F9308F /* Common.m */,
+				AB9636B82C383C5D00F9308F /* Common.h */,
+				AB9636B92C383C5D00F9308F /* CommonHeader.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AB9636BF2C383C5D00F9308F /* FunctionExpansion */ = {
+			isa = PBXGroup;
+			children = (
+				AB9636C02C383C5D00F9308F /* NSString+LocalizedString.h */,
+				AB9636C12C383C5D00F9308F /* MKMD5.m */,
+				AB9636C22C383C5D00F9308F /* NSString+Size.h */,
+				AB9636C32C383C5D00F9308F /* XTTimeTool.h */,
+				AB9636C42C383C5D00F9308F /* NSString+LocalizedString.m */,
+				AB9636C52C383C5D00F9308F /* MKMD5.h */,
+				AB9636C62C383C5D00F9308F /* XTTimeTool.m */,
+				AB9636C72C383C5D00F9308F /* NSString+Size.m */,
+			);
+			path = FunctionExpansion;
+			sourceTree = "<group>";
+		};
+		AB9636C82C383C5D00F9308F /* ObjectExist */ = {
+			isa = PBXGroup;
+			children = (
+				AB9636C92C383C5D00F9308F /* NSString+Exist.h */,
+				AB9636CA2C383C5D00F9308F /* NSNull+Exist.h */,
+				AB9636CB2C383C5D00F9308F /* NSNumber+Exist.m */,
+				AB9636CC2C383C5D00F9308F /* NSNull+Exist.m */,
+				AB9636CD2C383C5D00F9308F /* NSString+Exist.m */,
+				AB9636CE2C383C5D00F9308F /* NSNumber+Exist.h */,
+			);
+			path = ObjectExist;
+			sourceTree = "<group>";
+		};
+		C5B941F3D4996BA25C2D0841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2678C144ED87C183E700EEED /* Pods_WatermelonSonar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9636822C383BAD00F9308F /* WatermelonSonar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB96369C2C383BAF00F9308F /* Build configuration list for PBXNativeTarget "WatermelonSonar" */;
+			buildPhases = (
+				AC4356F4A52DE59D55727809 /* [CP] Check Pods Manifest.lock */,
+				AB96367F2C383BAD00F9308F /* Sources */,
+				AB9636802C383BAD00F9308F /* Frameworks */,
+				AB9636812C383BAD00F9308F /* Resources */,
+				DD6D392AE6F21EEEC37462E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatermelonSonar;
+			productName = WatermelonSonar;
+			productReference = AB9636832C383BAD00F9308F /* WatermelonSonar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB96367B2C383BAD00F9308F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AB9636822C383BAD00F9308F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AB96367E2C383BAD00F9308F /* Build configuration list for PBXProject "WatermelonSonar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB96367A2C383BAD00F9308F;
+			productRefGroup = AB9636842C383BAD00F9308F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9636822C383BAD00F9308F /* WatermelonSonar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB9636812C383BAD00F9308F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9636962C383BAF00F9308F /* LaunchScreen.storyboard in Resources */,
+				AB9636932C383BAF00F9308F /* Assets.xcassets in Resources */,
+				AB9636912C383BAD00F9308F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC4356F4A52DE59D55727809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatermelonSonar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6D392AE6F21EEEC37462E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatermelonSonar/Pods-WatermelonSonar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatermelonSonar/Pods-WatermelonSonar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WatermelonSonar/Pods-WatermelonSonar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB96367F2C383BAD00F9308F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9636DC2C383C5D00F9308F /* NSString+LocalizedString.m in Sources */,
+				AB9636DF2C383C5D00F9308F /* NSNumber+Exist.m in Sources */,
+				AB9636D42C383C5D00F9308F /* UILabel+FunctionExpansion.m in Sources */,
+				AB9636E02C383C5D00F9308F /* NSNull+Exist.m in Sources */,
+				AB96368E2C383BAD00F9308F /* ViewController.m in Sources */,
+				AB9636DE2C383C5D00F9308F /* NSString+Size.m in Sources */,
+				AB9636882C383BAD00F9308F /* AppDelegate.m in Sources */,
+				AB9636D52C383C5D00F9308F /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				AB9636DB2C383C5D00F9308F /* MKMD5.m in Sources */,
+				AB9636E12C383C5D00F9308F /* NSString+Exist.m in Sources */,
+				AB9636992C383BAF00F9308F /* main.m in Sources */,
+				AB9636D12C383C5D00F9308F /* UIWindow+MKWindowTool.m in Sources */,
+				AB9636D82C383C5D00F9308F /* Common.m in Sources */,
+				AB9636DD2C383C5D00F9308F /* XTTimeTool.m in Sources */,
+				AB9636D02C383C5D00F9308F /* UITextField+FunctionExpansion.m in Sources */,
+				AB9636D32C383C5D00F9308F /* UIView+FunctionExpansion.m in Sources */,
+				AB9636D62C383C5D00F9308F /* UIViewController+NavigationBar.m in Sources */,
+				AB9636CF2C383C5D00F9308F /* UIColor+MKRGB.m in Sources */,
+				AB96368B2C383BAD00F9308F /* SceneDelegate.m in Sources */,
+				AB9636D22C383C5D00F9308F /* UIButton+FunctionExpansion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB96368F2C383BAD00F9308F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9636902C383BAD00F9308F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB9636942C383BAF00F9308F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9636952C383BAF00F9308F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB96369A2C383BAF00F9308F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB96369B2C383BAF00F9308F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB96369D2C383BAF00F9308F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B05E3E5FFB47C02100948E7 /* Pods-WatermelonSonar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDRWRXCL7C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WatermelonSonar/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatermelonSonar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmk.watermelonsonar.WatermelonSonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB96369E2C383BAF00F9308F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B608B8C3DCFE53A03D47DFF /* Pods-WatermelonSonar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDRWRXCL7C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WatermelonSonar/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatermelonSonar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmk.watermelonsonar.WatermelonSonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB96367E2C383BAD00F9308F /* Build configuration list for PBXProject "WatermelonSonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96369A2C383BAF00F9308F /* Debug */,
+				AB96369B2C383BAF00F9308F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB96369C2C383BAF00F9308F /* Build configuration list for PBXNativeTarget "WatermelonSonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96369D2C383BAF00F9308F /* Debug */,
+				AB96369E2C383BAF00F9308F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB96367B2C383BAD00F9308F /* Project object */;
+}
